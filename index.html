@@ -1,0 +1,1387 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 	
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Bootstrap Website</title>
+	<!-----stylesheet----->
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+     <!-----animation css link----->
+    <link
+    rel="stylesheet"
+    href="css/animate.min.css"
+  />
+	
+	<!-------fontawesome------>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!------bootstrap----->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<!----google fonts----->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<style>
+   
+		#feedback{
+			
+			background: #0d0442;
+			padding: 7% 10%;
+		}
+		.hr-style{
+			
+			border: 5px dotted white;
+			border-bottom: none;
+			width: 90px;
+		}
+	
+		.carousel-item{
+			padding: 5% 15%;
+			text-align: center;
+			
+		}
+
+
+
+
+		
+		
+	</style>
+</head>
+  <body >
+	<div class="container-fluid">
+		<!----- start create navbar ---->
+	  <header>
+	
+		  <nav class="navbar navbar-expand-md fixed-top ">
+		  <a class="navbar-brand animate__animated wow animate__zoomIn animate__slower 3s" href="index.html"><!----- only for logo ---->
+		  <img src="https://www.google.com/logos/doodles/2021/pohela-boishakh-6753651837108349.2-s.png" alt="logo">
+		  
+		  </a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+               <span><i class="fas fa-bars custom-navbar"></i></span>
+              </button><!-----small screen navbar ---->
+			  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+			    <ul class="navbar-nav ml-auto">
+			  <li class="nav-item"><a class="nav-link text-center text-md-left" href="#">Home</a></li>
+			   <li class="nav-item"><a class="nav-link text-center text-md-left" href="about.html">About</a></li>
+			   <li class="nav-item"><a class="nav-link scrollto text-center text-md-left" href="#author">Contact</a></li>
+			   <li class="nav-item"><a class="nav-link text-center text-md-left" href="#">Protfolo</a></li>
+		      </ul>
+			  </div>
+	
+		  </nav>
+	
+    
+		  
+	 </header><!----- end create navbar ---->
+		
+			  <!-- ======= Hero Section ======= -->
+	 <section id="hero" class="hero d-flex align-items-center">
+     <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h1 class="animate__animated wow animate__fadeInUp animate__slow 2s">We offer modern solutions for growing your business</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">We are team of talented designers making websites with Bootstrap</h2>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-start">
+              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span class="p-2 mr-5">Get Started</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 hero-img" >
+          <img class="animate__animated wow animate__zoomIn animate__slower 2s" src="image/hero-img.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+	
+		
+		
+		
+		
+	<main>
+				<!------ service card section end ------>
+		
+	<div class="my-Service">
+	     <div class="title text-center mb-5">
+		<h3 class="font-weight-bolder text-white pt-5">OUR SERVICE</h3>
+		</div>
+		<div class="row text-center mb-5">
+	     <div class="col-lg-4 col-md-6 mb-0 text-white btn-outline-primary animate__animated wow animate__fadeInUp animate__slow 2s border-style mb-5 ">
+		 <i class="bg-primary p-2 fa-2x text-white rounded-circle mb-3 fas fa-rocket "></i>
+		<h5>Web Desing</h5>
+		 <p>Fusce fermentum felis massa, ac porta sapien efficitur eu. Nulla facilisi. Aliquam vitae sodales tellus. Aenean aliquam, sem et egestas consectetur, velit risus iaculis eros, nec porttitor metus enim et ipsum. Aliquam convallis nisi id sapien varius, ut mollis justo luctus. Nunc varius fringilla massa sit amet pulvinar.</p>
+		<button type="button" class="btn btn-success btn-outline-primary text-white my-5 ">Read More</button>
+ 
+	     </div>
+	        <div class="col-lg-4 col-md-6 text-white btn-outline-primary animate__animated wow animate__zoomIn border-style mb-5">
+		 <i class=" bg-primary p-2 fa-2x text-white rounded-circle mb-3 fas fa-dollar-sign"></i>
+		<h5>Grapic Desing</h5>
+		 <p>Fusce fermentum felis massa, ac porta sapien efficitur eu. Nulla facilisi. Aliquam vitae sodales tellus. Aenean aliquam, sem et egestas consectetur, velit risus iaculis eros, nec porttitor metus enim et ipsum. Aliquam convallis nisi id sapien varius, ut mollis justo luctus. Nunc varius fringilla massa sit amet pulvinar.</p>
+		 <button type="button" class="btn btn-success btn-outline-primary text-white my-5 ">Read more</button>
+
+	  </div>
+	 <div class="col-lg-4 col-md-6 btn-outline-primary text-white animate__animated wow animate__fadeInUp animate__slow 2s  border-style mb-5">
+		 <i class="bg-primary p-2 fa-2x text-white rounded-circle mb-3 fas fa-magic"></i>
+		 <h5>Video Eidtor</h5>
+		  <p>Fusce fermentum felis massa, ac porta sapien efficitur eu. Nulla facilisi. Aliquam vitae sodales tellus. Aenean aliquam, sem et egestas consectetur, velit risus iaculis eros, nec porttitor metus enim et ipsum. Aliquam convallis nisi id sapien varius, ut mollis justo luctus. Nunc varius fringilla massa sit amet pulvinar.</p>
+	 <button type="button" class="btn btn-success btn-outline-primary text-white   my-5">Read More</button>
+
+		</div>
+			
+	 <div class="col-lg-4 col-md-6 btn-outline-primary text-white animate__animated wow animate__zoomIn border-style mb-5">
+		 <i class="bg-primary p-2 fa-2x text-white rounded-circle mb-3 fas fa-magic"></i>
+		 <h5>Video Eidtor</h5>
+		  <p>Fusce fermentum felis massa, ac porta sapien efficitur eu. Nulla facilisi. Aliquam vitae sodales tellus. Aenean aliquam, sem et egestas consectetur, velit risus iaculis eros, nec porttitor metus enim et ipsum. Aliquam convallis nisi id sapien varius, ut mollis justo luctus. Nunc varius fringilla massa sit amet pulvinar.</p>
+	 <button type="button" class="btn btn-success btn-outline-primary text-white   my-5">Read More</button>
+
+		</div>
+			 <div class="col-lg-4 col-md-6 btn-outline-primary text-white animate__animated wow animate__zoomIn border-style mb-5">
+		 <i class="bg-primary p-2 fa-2x text-white rounded-circle mb-3 fas fa-magic"></i>
+		 <h5>Video Eidtor</h5>
+		  <p>Fusce fermentum felis massa, ac porta sapien efficitur eu. Nulla facilisi. Aliquam vitae sodales tellus. Aenean aliquam, sem et egestas consectetur, velit risus iaculis eros, nec porttitor metus enim et ipsum. Aliquam convallis nisi id sapien varius, ut mollis justo luctus. Nunc varius fringilla massa sit amet pulvinar.</p>
+	 <button type="button" class="btn btn-success btn-outline-primary text-white   my-5">Read More</button>
+
+		</div>
+			 <div class="col-lg-4 col-md-6 btn-outline-primary text-white animate__animated wow animate__zoomIn border-style mb-5">
+		 <i class="bg-primary p-2 fa-2x text-white rounded-circle mb-3 fas fa-magic"></i>
+		 <h5>Video Eidtor</h5>
+		  <p>Fusce fermentum felis massa, ac porta sapien efficitur eu. Nulla facilisi. Aliquam vitae sodales tellus. Aenean aliquam, sem et egestas consectetur, velit risus iaculis eros, nec porttitor metus enim et ipsum. Aliquam convallis nisi id sapien varius, ut mollis justo luctus. Nunc varius fringilla massa sit amet pulvinar.</p>
+	      <button type="button" class="btn btn-success btn-outline-primary text-white   my-5">Read More</button>
+
+		</div>
+			
+			
+			
+	    </div>
+ 
+		</div> <!-----my service end ---->
+		      	
+		<!-----card-section start----> 
+		
+		    <div class="card-section">
+		    <div class="title-holder text-greem text-center mb-3 ">
+			 <h2 class="font-weight-bolder">Our Product </h2>
+		     </div>
+			  <div class="row">
+				<div class="col-lg-4 col-md-6 col-sm-12 mb-4 animate__animated wow animate__zoomIn animate__slow 1s">
+				     <div class="card mb-5 mb-lg-0 ">
+					
+						 <img class="card-img-top animate__animated wow animate__zoomIn animate__slow 2s " class="img-fluid" data-gallery ="portfolioGallery" class ="portfolio-lightbox" src="https://df17fp68uwcso.cloudfront.net/eyJidWNrZXQiOiJtZWRpYS5ldmFseS5jb20uYmQiLCJrZXkiOiJtZWRpYS9pbWFnZXMvZjJlMWM4NDhiZDIyLTEucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoiYXV0byIsImhlaWdodCI6ImF1dG8iLCJmaXQiOiJjb250YWluIn0sImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9LCJmbGF0dGVuIjp0cnVlLCJqcGVnIjp7InF1YWxpdHkiOjkwfX19" alt="logo"/>
+					       
+					
+					    <div class="card-body">
+						 <h4>Samsung </h4>
+						   <p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+							<a href="#" class="btn btn-primary stretched-link text-center">Download</a>
+						 </div>
+                       
+
+					
+					</div>
+				  </div>
+				  <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+				     <div class="card mb-5 mb-lg-0">
+					   <img class="card-img-top animate__animated wow animate__zoomIn animate__slow	2s " src="https://png.pngtree.com/png-clipart/20190515/original/pngtree-black-t-shirt-mockup-png-image_3610326.jpg" class="animate__animated animate__zoomIn" alt="logo">
+					    <div class="card-body">
+						 <h4>Embroidered</h4>
+						   <p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+							<a href="#" class="btn btn-primary stretched-link">Download</a>
+						 </div>
+                       
+
+					
+					</div>
+				  </div>
+				  <div class="col-lg-4 col-md-6 col-sm-12 mb-5 ">
+				     <div class="card mb-5 mb-lg-0">
+					   <img class="card-img-top animate__animated wow animate__zoomIn animate__slow	2s " class="img-fluid" src="https://png.pngtree.com/png-clipart/20190515/original/pngtree-black-t-shirt-mockup-png-image_3610326.jpg" alt="logo">
+					    <div class="card-body">
+						 <h4>Panasonic</h4>
+						   <p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+							<a href="#" class="btn btn-primary stretched-link">Download</a>
+						 </div>
+					</div>
+				  </div>
+				  <div class="col-lg-4 col-md-6 col-sm-12 mb-5 ">
+				     <div class="card mb-5 mb-lg-0">
+					   <img class="card-img-top animate__animated wow animate__zoomIn animate__slow	2s " src="https://df17fp68uwcso.cloudfront.net/eyJidWNrZXQiOiJtZWRpYS5ldmFseS5jb20uYmQiLCJrZXkiOiJtZWRpYS9pbWFnZXMvMmRiOWIwNmNkOGQzLTUucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoiYXV0byIsImhlaWdodCI6ImF1dG8iLCJmaXQiOiJjb250YWluIn0sImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9LCJmbGF0dGVuIjp0cnVlLCJqcGVnIjp7InF1YWxpdHkiOjkwfX19" alt="logo">
+					    <div class="card-body">
+						 <h4>Linnex </h4>
+						   <p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+							<a href="#" class=" btn btn-primary stretched-link">Download</a>
+						 </div>
+                       
+
+					
+					</div>
+				  </div>
+				   <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+				     <div class="card mb-5 mb-lg-0">
+					   <img class="card-img-top animate__animated wow animate__zoomIn animate__slow	2s " src="https://df17fp68uwcso.cloudfront.net/eyJidWNrZXQiOiJtZWRpYS5ldmFseS5jb20uYmQiLCJrZXkiOiJtZWRpYS9pbWFnZXMvMmRiOWIwNmNkOGQzLTUucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoiYXV0byIsImhlaWdodCI6ImF1dG8iLCJmaXQiOiJjb250YWluIn0sImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9LCJmbGF0dGVuIjp0cnVlLCJqcGVnIjp7InF1YWxpdHkiOjkwfX19" alt="logo">
+					    <div class="card-body">
+						 <h4>Linnex </h4>
+						   <p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+							<a href="#" class=" btn btn-primary stretched-link">Download</a>
+						 </div>
+                       
+
+					
+					</div>
+				  </div>
+				    <div class="col-lg-4 col-md-6 col-sm-12">
+				     <div class="card mb-5 mb-lg-0 ">
+					   <img class="card-img-top animate__animated wow animate__zoomIn animate__slow	2s " src="https://s3-ap-southeast-1.amazonaws.com/media.evaly.com.bd/media/images/8c786b60d286-a_19.png" alt="logo">
+					    <div class="card-body">
+						 <h4>Panasonic</h4>
+						   <p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+							<a href="#" class="btn btn-primary stretched-link">Download</a>
+						 </div>
+					</div>
+				  </div>
+				    <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+				     <div class="card mb-5 mb-lg-0">
+					   <img class="card-img-top animate__animated wow animate__zoomIn animate__slow	2s " src="https://s3-ap-southeast-1.amazonaws.com/media.evaly.com.bd/media/images/8c786b60d286-a_19.png" alt="logo">
+					    <div class="card-body">
+						 <h4>Panasonic</h4>
+						   <p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+							<a href="#" class="btn btn-primary stretched-link">Download</a>
+						 </div>
+					</div>
+				  </div>
+				    <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+				     <div class="card mb-5 mb-lg-0">
+					   <img class="card-img-top" src="https://s3-ap-southeast-1.amazonaws.com/media.evaly.com.bd/media/images/8c786b60d286-a_19.png" alt="logo">
+					    <div class="card-body">
+						 <h4>Panasonic</h4>
+						   <p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+							<a href="#" class="btn btn-primary stretched-link">Download</a>
+						 </div>
+					</div>
+				  </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+				     <div class="card mb-5 mb-lg-0">
+					   <img class="card-img-top" src="https://s3-ap-southeast-1.amazonaws.com/media.evaly.com.bd/media/images/8c786b60d286-a_19.png" alt="logo">
+					    <div class="card-body">
+						 <h4>Panasonic</h4>
+						   <p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+							<a href="#" class="btn btn-primary stretched-link">Download</a>
+						 </div>
+					</div>
+				  </div>
+			  </div>
+					  			<!-----Pagination start---->
+		     <ul class="pagination justify-content-center my-3">
+			  <li class="page-item disable ">
+				<a class="page-link" href="#" tabindex="-1">Previews</a>
+		
+			   </li>
+			  <li class="page-item"><a class="page-link " href="#">1</a></li>
+			  <li class="page-item active">
+               <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+              </li>
+			   <li class="page-item"><a class="page-link" href="#">3</a></li>
+			   <li class="page-item">
+              <a class="page-link" href="#">Next</a>
+                 </li>
+		     </ul>
+				  <!-----Pagination end--->
+		    </div>
+          <!-----card-section end---->
+		     <section id="price-section">
+				 <div class="price-table">
+				 <h2 class="text-white text-center">Product Price</h2>
+				 </div>
+		       <div class="row  justify-content-center">
+				 <div class="col-lg-4 p-5">
+				   <div class="card pricingTable ">
+					 <div class="card-header bg-primary">
+						 <h2 class="font-weight-bolder title "> Stander Price </h2>
+						
+                        </div>
+					      <div class="price-value mb-0">
+					           <span class="currency">$</span>
+                                <span class="amount">10</span>
+                                <span class="duration">/ mo</span>
+					   
+					      </div>
+					      
+					          <ul class="pricing-content card-body ">
+                             <li class="list-group-item">10 GB Stroge</li>
+                              <li class="list-group-item"> 40 Email</li>
+                              <li class="list-group-item">20 Domain</li>
+							   <li class="list-group-item">20 Hosting</li>
+                            </ul>
+					   
+					   
+					     
+					      
+					  <div class=" pricingTable-signup card-footer ">
+                        <a href="#" class="btn btn-primary ">Sign Up</a>
+                      </div>
+					 </div>
+				   
+				   </div>
+				 <div class="col-lg-4 p-5">
+				   <div class="card pricingTable ">
+					 <div class="card-header bg-primary">
+						 <h2 class="font-weight-bolder title "> Business​ Price </h2>
+						
+                        </div>
+					      <div class="price-value mb-0">
+					           <span class="currency">$</span>
+                                <span class="amount">20</span>
+                                <span class="duration">/ mo</span>
+					   
+					      </div>
+					      
+					          <ul class="pricing-content card-body ">
+                             <li class="list-group-item">10 GB Stroge</li>
+                              <li class="list-group-item"> 40 Email</li>
+                              <li class="list-group-item">20 Domain</li>
+							   <li class="list-group-item">20 Hosting</li>
+                            </ul>
+					   
+					   
+					     
+					      
+					  <div class=" pricingTable-signup card-footer ">
+                        <a href="#" class="btn btn-primary ">Sign Up</a>
+                      </div>
+					 </div>
+				   
+				   </div>
+			 <div class="col-lg-4 p-5">
+				   <div class="card pricingTable ">
+					 <div class="card-header bg-primary">
+						 <h2 class="font-weight-bolder title "> Premium Price </h2>
+						
+                        </div>
+					      <div class="price-value mb-0">
+					           <span class="currency">$</span>
+                                <span class="amount">30</span>
+                                <span class="duration">/ mo</span>
+					   
+					      </div>
+					      
+					          <ul class="pricing-content card-body ">
+                             <li class="list-group-item">10 GB Stroge</li>
+                              <li class="list-group-item"> 40 Email</li>
+                              <li class="list-group-item">20 Domain</li>
+							   <li class="list-group-item">20 Hosting</li>
+                            </ul>
+					   
+					   
+					     
+					      
+					  <div class=" pricingTable-signup card-footer ">
+                        <a href="#" class="btn btn-primary">Sign Up</a>
+                      </div>
+					 </div>
+				   
+				   </div>
+				   
+				   
+				   
+				 </div>
+		
+		   </section>
+		
+			<!-----testimonial sectionfluid start----->
+         <section id="testimonial">
+		   <div class="row">
+			 <div class="col-lg-12 text-white">
+				  <div class="title-holder text-greem text-center mb-3 ">
+			      <h2 class="font-weight-bolder">Tesmonial Section</h2>
+		           </div>
+			   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			         <ol class="carousel-indicators">
+                       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                         </ol>
+				         <div class="carousel-inner">
+				                <div class="carousel-item active">
+				                 <div class="row">
+									<div class="col-lg-4 ">
+									 <div class="single-box animate__animated wow animate__zoomIn animate__slower 3s">
+										<div class="image-area"><img src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="testmonial"></div>
+										  <h4>Imran Hasan</h4>
+										    <p>Nunc varius fringilla massa sit amet pulvinaNunc varius fringilla massa sit amet pulvinaNunc varius fringilla massa sit amet pulvinaNunc varius fringilla massa sit amet pulvinaNunc varius fringilla massa sit amet pulvina</p>
+										 <div class="testmonial-social">
+										 		<a href="#" class="fa-ic ml-0 ">
+					                          <i class="fab fa-facebook text-white mr-4"></i>
+						
+					                          </a>
+					                      	<a href="#" class="tw-ic">
+					                        <i class="fab fa-twitter text-white mr-4"></i>						
+					                       </a>
+						                    <a href="#" class="gplus-ic">
+					                         <i class="fab fa-google-plus text-white mr-4"></i>						
+					                          </a>
+					                     	<a href="#" class="li-ic">
+					                       <i class="fab fa-linkedin text-white mr-4"></i>						
+					                        </a>
+										 </div>
+				 
+										</div>
+									 </div>
+                                       <div class="col-lg-4">
+									 <div class="single-box animate__animated wow animate__zoomIn animate__slower 3s">
+										<div class="image-area"><img src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="testmonial"></div>
+										  <h4>Minaju Islam</h4>
+										    <p>Nunc varius fringilla massa sit amet pulvinaNunc varius fringilla massa sit amet pulvinaNunc varius fringilla massa sit amet pulvinaNunc varius fringilla massa sit amet pulvinaNunc varius fringilla massa sit amet pulvina</p>
+										 	 <div class="testmonial-social">
+										 		<a href="#" class="fa-ic ml-0 ">
+					                          <i class="fab fa-facebook text-white mr-4"></i>
+						
+					                          </a>
+					                      	<a href="#" class="tw-ic">
+					                        <i class="fab fa-twitter text-white mr-4"></i>						
+					                       </a>
+						                    <a href="#" class="gplus-ic">
+					                         <i class="fab fa-google-plus text-white mr-4"></i>						
+					                          </a>
+					                     	<a href="#" class="li-ic">
+					                       <i class="fab fa-linkedin text-white mr-4"></i>						
+					                        </a>
+										 </div>
+										 
+										 
+										 
+										 
+										</div>
+									 
+									 </div> 
+									 <div class="col-lg-4 animate__animated wow animate__zoomIn animate__slower 3s">
+									 <div class="single-box">
+										<div class="image-area"><img src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="testmonial"></div>
+										  <h4>Imran Hasan 3</h4>
+										    <p>Nunc varius fringilla massa sit amet pulvinaNunc varius fringilla massa sit amet pulvinaNunc varius fringilla massa sit amet pulvinaNunc varius fringilla massa sit amet pulvinaNunc varius fringilla massa sit amet pulvina</p>
+										 	 <div class="testmonial-social">
+										 		<a href="#" class="fa-ic ml-0 ">
+					                          <i class="fab fa-facebook text-white mr-4"></i>
+						
+					                          </a>
+					                      	<a href="#" class="tw-ic">
+					                        <i class="fab fa-twitter text-white mr-4"></i>						
+					                       </a>
+						                    <a href="#" class="gplus-ic">
+					                         <i class="fab fa-google-plus text-white mr-4"></i>						
+					                          </a>
+					                     	<a href="#" class="li-ic">
+					                       <i class="fab fa-linkedin text-white mr-4"></i>						
+					                        </a>
+										 </div>
+										 
+										</div>
+									 
+									 </div>
+								
+									 
+									 
+									</div>
+				   
+				                </div>
+				                   <div class="carousel-item ">
+				                 <div class="row">
+									<div class="col-lg-4 ">
+									 <div class="single-box animate__animated wow animate__zoomIn animate__slower 3s">
+										<div class="image-area"><img  src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="testmonial"></div>
+										  <h4>Imran Hasan 4</h4>
+										    <p>Nunc varius fringilla massa sit amet pulvinaNunc varius fringilla massa sit amet pulvinaNunc varius fringilla massa sit amet pulvinaNunc varius fringilla massa sit amet pulvinaNunc varius fringilla massa sit amet pulvina</p>
+										 	 <div class="testmonial-social">
+										 		<a href="#" class="fa-ic ml-0 ">
+					                          <i class="fab fa-facebook text-white  mr-4"></i>
+						
+					                          </a>
+					                      	<a href="#" class="tw-ic">
+					                        <i class="fab fa-twitter text-white mr-4"></i>						
+					                       </a>
+						                    <a href="#" class="gplus-ic">
+					                         <i class="fab fa-google-plus text-white mr-4"></i>						
+					                          </a>
+					                     	<a href="#" class="li-ic">
+					                       <i class="fab fa-linkedin text-white mr-4 "></i>						
+					                        </a>
+										 </div>
+										</div>
+									 
+									 </div>
+                                       <div class="col-lg-4">
+									 <div class="single-box animate__animated wow animate__zoomIn animate__slower 3s">
+										<div class="image-area"><img src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="testmonial"></div>
+										  <h4>Imran Hasan 5</h4>
+										    <p>Nunc varius fringilla massa sit amet pulvinaNunc varius fringilla massa sit amet pulvinaNunc varius fringilla massa sit amet pulvinaNunc varius fringilla massa sit amet pulvinaNunc varius fringilla massa sit amet pulvina</p>
+										 	 <div class="testmonial-social">
+										 		<a href="#" class="fa-ic ml-0 ">
+					                          <i class="fab fa-facebook text-white mr-4"></i>
+						
+					                          </a>
+					                      	<a href="#"  class="tw-ic">
+					                        <i class="fab fa-twitter text-white mr-4"></i>						
+					                       </a>
+						                    <a href="#" class="gplus-ic">
+					                         <i class="fab fa-google-plus text-white mr-4"></i>						
+					                          </a>
+					                     	<a href="#" class="li-ic">
+					                       <i class="fab fa-linkedin text-white mr-4"></i>						
+					                        </a>
+										 </div>
+										</div>
+									 
+									 </div> 
+									 <div class="col-lg-4">
+									 <div class="single-box animate__animated wow animate__zoomIn animate__slower 3s">
+										<div class="image-area"><img src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="testmonial"></div>
+										  <h4>Imran Hasan 6</h4>
+										    <p>Nunc varius fringilla massa sit amet pulvinaNunc varius fringilla massa sit amet pulvinaNunc varius fringilla massa sit amet pulvinaNunc varius fringilla massa sit amet pulvinaNunc varius fringilla massa sit amet pulvina</p>
+										 	 <div class="testmonial-social mr-3">
+										 		<a href="#" class="fa-ic ml-0 ">
+					                          <i class="fab fa-facebook text-white mr-4"></i>
+						
+					                          </a>
+					                      	<a href="#" class="tw-ic">
+					                        <i class="fab fa-twitter text-white mr-4"></i>						
+					                       </a>
+						                    <a href="#" class="gplus-ic">
+					                         <i class="fab fa-google-plus text-white mr-4"></i>						
+					                          </a>
+					                     	<a href="#" class="li-ic">
+					                       <i class="fab fa-linkedin text-white mr-4"></i>						
+					                        </a>
+										 </div>
+										</div>
+									 
+									 </div>
+								
+									 
+									 
+									</div>
+				   
+				                </div>
+				   
+				        </div>
+				       
+				     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Previous</span>
+                     </a>
+                     <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                      </a>
+				   
+			   </div>
+			</div>
+		</div>
+	    </section><!-----testimonial section end----->    
+				 <!-----about section start--->
+	   <div class="about-section">
+		 <div class="jumbotron pt-3 pt-2">
+		   <div class="title-holder text-greem text-center mb-3 ">
+			 <h2 class="font-weight-bolder">About Me</h2>
+			 </div>
+		      <div class="row">
+			    <div class="col-lg-4 text-center">
+					<img class=" animate__animated animate__zoomIn"  src="image/20191112_114136.jpg" alt="">
+				  </div>
+				  <div class="col-lg-8">
+				  <p class="m-5">Fusce fermentum felis massa, ac porta sapien efficitur eu. Nulla facilisi. Aliquam vitae sodales tellus. Aenean aliquam, sem et egestas consectetur, velit risus iaculis </p>
+					  <a href="#collapseExample" data-toggle="collapse">Read more</a>
+					  <div class="collapse" id="collapseExample">
+                      <div class="card card-body">
+                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                         </div>
+                         </div>
+					  
+				  
+					   <!------close and alert botton---->
+					  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                       <strong>Imran Hasan!</strong> You should check in on some of those fields below.
+                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                          </button>
+                           </div>
+					  <!------close and alert botton---->
+					   <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                       <strong>Visited My Channel!</strong> You should check in on some of those fields below.
+                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                          </button>
+                           </div>
+				  </div>
+			 </div>
+		   </div>
+		
+		</div> <!-----about section end---->
+			
+		<!------ service card section start------>
+		  <section id="our-team" class="pb-5">
+	         <div class="our-section">
+				 <div class="team-title text-center p-5">
+				 <h2>OUR TEAM</h2>
+				 </div>
+                  <div class="container">
+			     <div class="row">
+				    <div class="col-lg-4 col-md-6 col-sm-12 ">
+					 <div class="image-flip ">
+						  <div class="mainflip flip-0">
+						    <div class="fontside text-white animate__animated wow animate__slideInLeft ">
+							  <div class="card ml-5">
+								<div class="card-body text-center ">
+								 <p><img class="image rounded-circle" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card-image"></p> 
+								  <h4 class="card-title">IMRAN HASAN</h4>
+								  <p class="card-text">Fusce fermentum felis massa, ac porta sapien efficitur eu. Nulla facilisi. </p>
+								 <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fal fa-plus"></i></a>
+								  </div>
+								
+								
+								</div>
+							  
+							  
+							  </div><!-----fontside end ar nich theke backside suru hobe---->
+							  <!-----backside start---->
+						        <div class="backside animate__animated wow animate__slideInRight">
+							      <div class="card">
+									<div class="card-body text-white bg-success">
+									  <h4 class="text-center my-5 ">Imran Hasan</h4>
+									    <p  class="text-center my-3 ">Fusce fermentum felis massa, ac porta sapien efficitur eu. Nulla facilisi. Aliquam vitae Fusce fermentum felis massa, ac porta sapien efficitur eu. Nulla facilisi. Aliquam vitae </p>
+									     <ul class="list-inline text-center text-white ">
+											<li class="list-inline-item m">
+                                            <a class="social-icon  text-xs-center" target="_blank" href="https://deshiobazar.blogspot.com">
+                                                <i class=" text-white fab fa-facebook"></i>
+                                            </a>
+                                            </li>
+											 <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://deshiobazar.blogspot.com">
+                                             <i class=" text-white fab fa-twitter"></i>
+                                            </a>
+                                            </li>
+											 <li class="list-inline-item">
+                                               <a class="social-icon text-xs-center" target="_blank" href="https://deshiobazar.blogspot.com/">
+                                                <i class=" text-white fab fa-youtube"></i>
+                                               </a>
+                                            </li>
+											 
+											  <li class="list-inline-item">
+                                               <a class="social-icon text-xs-center" target="_blank" href="https://deshiobazar.blogspot.com/">
+                                                 <i class="text-white fab fa-skype"></i>
+                                               </a>
+                                            </li>
+										</ul>
+									  </div>
+								</div>
+							  </div>
+						      <!-----backside end---->
+						 
+						 </div>
+						
+						
+					</div>
+					 
+					 
+					 </div>
+					 
+				    <div class="col-lg-4 col-md-6 col-sm-12 ">
+					 <div class="image-flip ">
+						  <div class="mainflip flip-0">
+						    <div class="fontside text-white animate__animated wow animate__slideInLeft ">
+							  <div class="card ml-5">
+								<div class="card-body text-center ">
+								 <p><img class="image-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card-image"></p> 
+								  <h4 class="card-title">MARK DORISON</h4>
+								  <p class="card-text">Fusce fermentum felis massa, ac porta sapien efficitur eu. Nulla facilisi. </p>
+								 <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fal fa-plus"></i></a>
+								  </div>
+								
+								
+								</div>
+							  
+							  
+							  </div><!-----fontside end ar nich theke backside suru hobe---->
+							  <!-----backside start---->
+						        <div class="backside animate__animated wow animate__slideInRight">
+							      <div class="card">
+									<div class="card-body text-white bg-success">
+									  <h4 class="text-center my-5 ">MARK DORISON</h4>
+									    <p  class="text-center my-3 ">Fusce fermentum felis massa, ac porta sapien efficitur eu. Nulla facilisi. Aliquam vitae Fusce fermentum felis massa, ac porta sapien efficitur eu. Nulla facilisi. Aliquam vitae </p>
+									     <ul class="list-inline text-center text-white ">
+											<li class="list-inline-item m">
+                                            <a class="social-icon  text-xs-center" target="_blank" href="https://deshiobazar.blogspot.com">
+                                                <i class=" text-white fab fa-facebook"></i>
+                                            </a>
+                                            </li>
+											 <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://deshiobazar.blogspot.com">
+                                             <i class=" text-white fab fa-twitter"></i>
+                                            </a>
+                                            </li>
+											 <li class="list-inline-item">
+                                               <a class="social-icon text-xs-center" target="_blank" href="https://deshiobazar.blogspot.com/">
+                                                <i class=" text-white fab fa-youtube"></i>
+                                               </a>
+                                            </li>
+											 
+											  <li class="list-inline-item">
+                                               <a class="social-icon text-xs-center" target="_blank" href="https://deshiobazar.blogspot.com/">
+                                                 <i class="text-white fab fa-skype"></i>
+                                               </a>
+                                            </li>
+										</ul>
+									  </div>
+								</div>
+							  </div>
+						      <!-----backside end---->
+						 
+						 </div>
+						
+						
+					</div>
+					 
+					 
+					 </div>
+					 
+		    <div class="col-lg-4 col-md-6 col-sm-12 ">
+					 <div class="image-flip ">
+						  <div class="mainflip flip-0">
+						    <div class="fontside text-white animate__animated wow animate__slideInLeft">
+							  <div class="card ml-5">
+								<div class="card-body text-center ">
+								 <p><img class="image-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card-image"></p> 
+								  <h4 class="card-title">ADAM ZIMMERMANN</h4>
+								  <p class="card-text">Fusce fermentum felis massa, ac porta sapien efficitur eu. Nulla facilisi. </p>
+								 <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fal fa-plus"></i></a>
+								  </div>
+								
+								
+								</div>
+							  
+							  
+							  </div><!-----fontside end ar nich theke backside suru hobe---->
+							  <!-----backside start---->
+						        <div class="backside animate__animated wow animate__slideInRight">
+							      <div class="card">
+									<div class="card-body text-white bg-success">
+									  <h4 class="text-center my-5 ">ADAM ZIMMERMANN</h4>
+									    <p  class="text-center my-3 ">Fusce fermentum felis massa, ac porta sapien efficitur eu. Nulla facilisi. Aliquam vitae Fusce fermentum felis massa, ac porta sapien efficitur eu. Nulla facilisi. Aliquam vitae </p>
+									     <ul class="list-inline text-center text-white ">
+											<li class="list-inline-item m">
+                                               <a class="social-icon  text-xs-center" target="_blank" href="https://deshiobazar.blogspot.com">
+                                                <i class=" text-white fab fa-facebook"></i>
+                                               </a>
+                                            </li>
+											 <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="https://deshiobazar.blogspot.com">
+                                             <i class=" text-white fab fa-twitter"></i>
+                                              </a>
+                                             </li>
+											 <li class="list-inline-item">
+                                               <a class="social-icon text-xs-center" target="_blank" href="https://deshiobazar.blogspot.com/">
+                                                <i class=" text-white fab fa-youtube"></i>
+                                               </a>
+                                              </li>
+											 
+											  <li class="list-inline-item">
+                                               <a class="social-icon text-xs-center" target="_blank" href="https://deshiobazar.blogspot.com/">
+                                               <i class="text-white fab fa-skype"></i>
+                                               </a>
+                                            </li>
+										</ul>
+									  </div>
+								</div>
+							  </div>
+						      <!-----backside end---->
+						 </div>
+					    </div>
+					   </div>
+
+					  <div class="col-lg-4 col-md-6 col-sm-12 mt-5 custom-style">
+					 <div class="image-flip">
+						  <div class="mainflip flip-0">
+						    <div class="fontside text-white ">
+							  <div class="card ml-5">
+								<div class="card-body text-center ">
+								 <p><img class="image-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card-image"></p> 
+								  <h4 class="card-title">Sakib Hasan</h4>
+								  <p class="card-text">Fusce fermentum felis massa, ac porta sapien efficitur eu. Nulla facilisi. </p>
+								 <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fal fa-plus"></i></a>
+								  </div>
+								
+								
+								</div>
+							  
+							  
+							  </div><!-----fontside end ar nich theke backside suru hobe---->
+							  <!-----backside start---->
+						        <div class="backside ">
+							      <div class="card">
+									<div class="card-body text-white bg-success">
+									  <h4 class="text-center my-5 ">Sakib Hasan</h4>
+									    <p  class="text-center my-3 ">Fusce fermentum felis massa, ac porta sapien efficitur eu. Nulla facilisi. Aliquam vitae Fusce fermentum felis massa, ac porta sapien efficitur eu. Nulla facilisi. Aliquam vitae </p>
+									     <ul class="list-inline text-center text-white ">
+											<li class="list-inline-item m">
+                                            <a class="social-icon  text-xs-center" target="_blank" href="https://deshiobazar.blogspot.com">
+                                                <i class=" text-white fab fa-facebook"></i>
+                                            </a>
+                                            </li>
+											 <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://deshiobazar.blogspot.com">
+                                             <i class=" text-white fab fa-twitter"></i>
+                                            </a>
+                                            </li>
+											 <li class="list-inline-item">
+                                               <a class="social-icon text-xs-center" target="_blank" href="https://deshiobazar.blogspot.com/">
+                                                <i class=" text-white fab fa-youtube"></i>
+                                               </a>
+                                            </li>
+											 
+											  <li class="list-inline-item">
+                                               <a class="social-icon text-xs-center" target="_blank" href="https://deshiobazar.blogspot.com/">
+                                                 <i class="text-white fab fa-skype"></i>
+                                               </a>
+                                            </li>
+										</ul>
+									  </div>
+								</div>
+							  </div>
+						      <!-----backside end---->
+						 
+						 </div>
+						
+						
+					</div>
+					 
+					 
+					 </div>
+					 
+					<div class="col-lg-4 col-md-6 col-sm-12 mt-5 custom-style-end">
+					 <div class="image-flip">
+						  <div class="mainflip flip-0">
+						    <div class="fontside text-white ">
+							  <div class="card ml-5">
+								<div class="card-body text-center ">
+								 <p><img class="image-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card-image"></p> 
+								  <h4 class="card-title">MARK DORISON</h4>
+								  <p class="card-text">Fusce fermentum felis massa, ac porta sapien efficitur eu. Nulla facilisi. </p>
+								 <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fal fa-plus"></i></a>
+								  </div>
+								
+								
+								</div>
+							  
+							  
+							  </div><!-----fontside end ar nich theke backside suru hobe---->
+							  <!-----backside start---->
+						        <div class="backside ">
+							      <div class="card">
+									<div class="card-body text-white bg-success">
+									  <h4 class="text-center my-5 ">Tarek Shaeid</h4>
+									    <p  class="text-center my-3 ">Fusce fermentum felis massa, ac porta sapien efficitur eu. Nulla facilisi. Aliquam vitae Fusce fermentum felis massa, ac porta sapien efficitur eu. Nulla facilisi. Aliquam vitae </p>
+									     <ul class="list-inline text-center text-white ">
+											<li class="list-inline-item m">
+                                            <a class="social-icon  text-xs-center" target="_blank" href="https://deshiobazar.blogspot.com">
+                                                <i class=" text-white fab fa-facebook"></i>
+                                            </a>
+                                            </li>
+											 <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://deshiobazar.blogspot.com">
+                                             <i class=" text-white fab fa-twitter"></i>
+                                            </a>
+                                            </li>
+											 <li class="list-inline-item">
+                                               <a class="social-icon text-xs-center" target="_blank" href="https://deshiobazar.blogspot.com/">
+                                                <i class=" text-white fab fa-youtube"></i>
+                                               </a>
+                                            </li>
+											 
+											  <li class="list-inline-item">
+                                               <a class="social-icon text-xs-center" target="_blank" href="https://deshiobazar.blogspot.com/">
+                                                 <i class="text-white fab fa-skype"></i>
+                                               </a>
+                                            </li>
+										</ul>
+									  </div>
+								</div>
+							  </div>
+						      <!-----backside end---->
+						 
+						 </div>
+						
+						
+					</div>
+					 
+					 
+					 </div>
+				
+					 
+				
+				
+					 
+				 </div>
+				 </div>
+			  </div>
+
+		  </section>
+				
+		<!-----start is customer reveiew section ---->
+		<section id="customer-review">
+		  <div class="title-holder text-greem text-center mb-3 ">
+			 <h2 class="font-weight-bolder">Customer Review</h2>
+		   </div>
+			<div class="row text-center p-5">
+			  <div class="col-lg-3">
+				<blockquote class="blockquote customer-review">
+					<i class=" fa-2x p-3 fas fa-user-circle bg-primary rounded-circle mb-4"></i>
+					<p>Aliquam vitae sodales tellus. Aenean aliquam, sem et egestas consectetur, velit risus iaculis eros, nec porttitor metus enim et ipsum. Aliquam convallis nisi id sapien varius, ut mollis justo luctus. Nunc varius fringilla massa sit amet pulvinar</p>
+				  <footer class="blockquote-footer text-white btn btn-primary">
+					Imran Hasan Is <cite>Youtube</cite>
+					
+					</footer>
+				  </blockquote>
+				</div>
+			       <div class="col-lg-3">
+				<blockquote class="blockquote">
+					<i class=" fa-2x p-3 fas fa-user-circle bg-primary rounded-circle mb-4"></i>
+					<p>Aliquam vitae sodales tellus. Aenean aliquam, sem et egestas consectetur, velit risus iaculis eros, nec porttitor metus enim et ipsum. Aliquam convallis nisi id sapien varius, ut mollis justo luctus. Nunc varius fringilla massa sit amet pulvinar</p>
+				  <footer class="blockquote-footer text-white btn btn-primary ">
+					Imran Hasan Is <cite>Youtube</cite>
+					
+					</footer>
+				  </blockquote>
+				</div>
+				  <div class="col-lg-3">
+				<blockquote class="blockquote">
+					<i class=" fa-2x p-3 fas fa-user-circle bg-primary rounded-circle mb-4"></i>
+					<p>Aliquam vitae sodales tellus. Aenean aliquam, sem et egestas consectetur, velit risus iaculis eros, nec porttitor metus enim et ipsum. Aliquam convallis nisi id sapien varius, ut mollis justo luctus. Nunc varius fringilla massa sit amet pulvinar</p>
+				  <footer class="blockquote-footer text-white btn btn-primary ">
+					Imran Hasan Is <cite>Youtube</cite>
+					
+					</footer>
+				  </blockquote>
+				</div>
+				  <div class="col-lg-3">
+				<blockquote class="blockquote">
+					<i class=" fa-2x p-3 fas fa-user-circle bg-primary rounded-circle mb-4"></i>
+					<p>Aliquam vitae sodales tellus. Aenean aliquam, sem et egestas consectetur, velit risus iaculis eros, nec porttitor metus enim et ipsum. Aliquam convallis nisi id sapien varius, ut mollis justo luctus. Nunc varius fringilla massa sit amet pulvinar</p>
+				  <footer class="blockquote-footer text-white btn btn-primary">
+					Imran Hasan Is <cite>Youtube</cite>
+					
+					</footer>
+				  </blockquote>
+				</div>
+			</div>
+		
+		</section><!-----End is customer reveiew section ---->
+		
+		<!------ bootstrap features start------>
+           <section id="features-section">
+		     <div class="row">
+			   <div class="col-lg-4 d-block d-lg-flex ">
+				 <div class="features-title text-center animate__animated wow animate__zoomInDown">
+				   <i class="fas fa-hands fa-3x rounded-circle icon-style"></i>
+				   <h5 class="animate__animated wow animate__zoomInDown">Free to Use</h5>
+				    <p class="" >tellus. Aenean aliquam, sem et egestas consectetur, velit risus iaculis eros, nec porttitor metus enim et ipsum. Aliquam convallis nisi id sapien varius, ut mollis justo luctus. Nunc varius fringilla massa sit amet pulvina</p>
+				   </div>
+				 
+				 </div>
+			       <div class="col-lg-4 d-block d-lg-flex">
+				 <div class="features-title text-center">
+				   <i class="fas fa-hands fa-3x rounded-circle icon-style "></i>
+				   <h5>Free to Use</h5>
+				    <p class="">tellus. Aenean aliquam, sem et egestas consectetur</p>
+				   </div>
+				 
+				 </div>
+				   <div class="col-lg-4 d-block d-lg-flex">
+				 <div class="features-title text-center">
+				   <i class="fas fa-hands fa-3x rounded-circle icon-style "></i>
+				   <h5>Free to Use</h5>
+				    <p>tellus. Aenean aliquam, sem et egestas consectetur, velit risus iaculis eros, nec porttitor metus enim et ipsum. Aliquam convallis nisi id sapien varius, ut mollis justo luctus. Nunc varius fringilla massa sit amet pulvina</p>
+				   </div>
+				 
+				 </div>
+			   </div>
+		
+		   </section>
+	
+		<!------ bootstrap features end------>
+	
+		
+		<!------ aboute me section------>
+	<!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <div>
+                <span  data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter ml-3"></span>
+                <p class="text-center">Happy Clients</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Projects</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6  ">
+            <div class="count-box  ">
+              <i class="bi bi-headset"></i>
+              <div class="">
+                <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Hours Of Support</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-people" style="color: #bb0852;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Hard Workers</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+
+
+		
+		
+		
+	      <section id="customer-style">
+			   <div class="container">
+			  <div class="row">
+				   <div class="col-lg-3"></div>
+				   <div class="col-lg-6 col-md-8 col-sm-12">
+				  	 <div class="togglable-section ">
+		      <ul class="nav nav-tabs text-center">
+			   <li class="nav-item"><a  data-toggle="tab" class="nav-link" href="#custo">Customer</a></li>
+			   <li class="nav-item"><a  data-toggle="tab" class="nav-link" href="#happ">Happy</a></li>
+				<li class="nav-item "><a  data-toggle="tab" class="nav-link" href="#say">Customer Say</a></li>
+			   </ul>
+			   
+			   <div class="tab-content">
+			     <div id="custo" class="tab-pane fade bg-primary p-4 text-white "><p>Aliquam vitae sodales tellus. Aenean aliquam, sem et egestas consectetur, velit risus iaculis eros, nec porttitor metus enim et ipsum. Aliquam convallis nisi id sapien varius, ut mollis justo luctus. Nunc varius fringilla massa sit amet pulvina</p>
+			   </div>
+			   <div id="happ" class="tab-pane fade bg-dark p-4 text-white "><p>Imran?? vitae sodales tellus. Aenean aliquam, sem et egestas consectetur, velit risus iaculis eros, nec porttitor metus enim et ipsum. Aliquam convallis nisi id sapien varius, ut mollis justo luctus. Nunc varius fringilla massa sit amet pulvina</p>
+			   </div>
+			   <div id="say" class="tab-pane fade bg-success p-4 text-white "><p>2000 Hasan?? vitae sodales tellus. Aenean aliquam, sem et egestas consectetur, velit risus iaculis eros, nec porttitor metus enim et ipsum. Aliquam convallis nisi id sapien varius, ut mollis justo luctus. Nunc varius fringilla massa sit amet pulvina</p>
+			   </div>
+			   </div><!-----tab-content---->
+		     
+		    </div><!----togglable-section end----->
+				  
+				  
+				  </div>
+			
+				   <div class="col-lg-3"></div>
+				   
+				   </div>
+			  </div>
+		  </section>
+
+		
+	
+		
+		
+	
+		<!-----contact form start section----->
+		
+		<section id="contact-form">
+		   <div class="title-holder text-greem text-center my-5 ">
+			 <h2 class="font-weight-bolder text-white">Contact Us </h2>
+			   <p class="text-white font-weight-bolder">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+		   </div>
+			<div class="container">
+					<div class="row">
+			 <div class="col-lg-6 ">
+				<div class="google-maps">
+				 <h4 class="text-center text-white">google maps </h4>
+				 </div>
+				 <div class="maps">
+			<iframe width="678" height="666" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=678&amp;height=666&amp;hl=en&amp;q=Null%20Gulshan%202%20Circle+(My%20Maps)&amp;t=h&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://www.embedmap.net/'>google map widget</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=9b99da8df38729b4934e74896d98436b1c763ac5'></script>
+				 </div>
+
+				</div>
+				<div class="col-lg-1"></div>
+			<div class="col-lg-5 ">
+					<form  action="mailto:imranhasan7865@gmail.com" method="post" enctype="text/plain" class="w-50 m-auto" class="was-validated">
+				<div class="form-group">
+				<label for="Fastname">Fast Name</label>
+			     <input type="text" class="form-control" name="Fastname" placeholder="Your Fast Name" required>
+				  <div class="valid-feedback">Right Name</div>
+				  <div class="invalid-feedback">Please Enter Your Fast Name </div>
+				</div>
+				<div class="form-group">
+				<label for="">Last name</label>
+			     <input type="text" class="form-control" name="lastname" placeholder="Your Last Name" required>
+				</div>
+			      <div class="form-group">
+				<label for="email">Email</label>
+			     <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+				</div>  
+				  <div class="form-group">
+				<label for="email">Subject</label>
+			     <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+				</div>
+				  <div class="form-group">
+				<label for="message">message</label>
+			     <textarea name="message" class="form-control"  id="" cols="30" rows="10"></textarea>
+				</div>
+				     <div class="mb-3 form-check">
+                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">I Agree  All Terms And Conditions</label>
+                       </div>
+				    <div class="form-group text-center">
+				     <button type="submit" class="btn btn-primary">Submit</button>
+			         <button type="reset" class="btn btn-primary">Reset</button>
+				    </div>
+				    
+				
+				
+			</form>
+				
+				
+				</div>
+			</div>
+			
+			
+			</div>
+	
+		</section>
+
+		<!-----contact form end section----->
+		
+	   
+	</main>
+		<!----Author Section Start---->
+		
+	     <section id="author">
+		    <div class="row">
+			 <div class="col-lg-6 col-md-8 col-sm-12">
+			<div class="card ap_profile_card ">
+             <div class="card-img-top"><img src="" alt=""></div>
+            <div class="card-body p-3">
+            <div class="ap_author_meta">
+            <img class="" src="image/rezize-athor.jpg">
+            <div class="ap_author_info">
+            <h5 class="card-title">Imran Hasan</h5>
+            <p class="card-subtitle mb-5 text-muted text-center">Wordpress Theme Developer</p>
+            </div>
+            </div>
+            <p class="card-text mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dapibus vehicula pharetra. Curabitur consectetur magna at purus placerat, et interdum purus efficitur. </p>
+			  <a href="mailto:imranhasan7865@gamil.com" class="card-link"><i class="fas fa-envelope"></i></a>
+            <a href="#" class="card-link"><i class="fab fa-facebook"></i></a>
+           <a href="#" class="card-link"><i class="fab fa-linkedin"></i></a>
+           <a href="#" class="card-link"><i class="fab fa-youtube"></i></a>
+           <a href="#" class="card-link"><i class="fab fa-twitter"></i></a>
+           <a href="#" class="card-link"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="card-link"><i class="fab fa-google-plus-square"></i></a>
+        </div>
+        
+	   </div>
+				
+		</div>
+			
+	
+				
+				
+				
+			
+			 
+		 </div>
+		
+		   </section>
+    
+		     <section class="subscribes bg-primary p-5">
+		      <div class="subsceibe-title">
+				 <h2 class="text-white text-center">Get Lattes Updates!</h2>
+				  <p class="text-white text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dapibus vehicula pharetra. Curabitur consectetur magna at purus placerat, et interdum purus efficitur.</p>
+				   <div class="container">
+				     <div class="row">
+				       <div class="col-lg-4">
+				       <form class="action" method="post">
+						   	<div class="form-group ">
+				            
+			                 <input type="text" class="form-control" name="Fastname" placeholder="Name" required>
+				               <div class="valid-feedback">Right Name</div>
+				               <div class="invalid-feedback">Please Enter Your Fast Name </div>
+				               </div>
+						   
+						</form>
+				  
+				      </div>
+				      <div class="col-lg-4 col-md-6 col-sm-12 ">
+				     <form class="action" method="post">
+						    	<div class="form-group">
+				        
+			                   <input type="text" class="form-control" name="Fastname" placeholder="Email" required>
+				               <div class="valid-feedback">Right Name</div>
+				               <div class="invalid-feedback">Please Enter Email Name </div>
+				               </div>
+					
+						</form>
+				  
+				  
+				      </div>
+				    <div class="col-lg-4 col-md-6 col-sm-12">
+				       <div class="form-group text-center">
+				     <button type="submit" class="btn btn-dark ">Subscribe</button>
+			        
+				    </div>
+				  
+				      </div>
+				  </div>
+				  
+				  </div>
+				 
+				 </div>
+		
+		
+		     </section>
+		<!----Author Section end---->
+		
+		<footer class="p-3 bg-dark">
+           <div class="primary-color">
+			  <div class="container">
+			   <div class="row py-4 d-flex align-items-center">
+				   <div class="col-lg-5 col-md-6 text-center text-md-left mb-4 mb-md-0 ">
+		           <h5 class="mb-0 text-white">Get connected with us on social networks!</h5>
+				   </div>
+				    <div class="col-lg-5 col-md-6  text-center text-md-right ml-5">
+				      <a class="fa-ic ml-0 ">
+					   <i class="fab fa-facebook text-white mr-4 p-3 bg-primary"></i>
+						
+					   </a>
+						<a class="tw-ic">
+					   <i class="fab fa-twitter text-white mr-4  p-3 bg-primary"></i>						
+					   </a>
+						<a class="gplus-ic">
+					   <i class="fab fa-google-plus text-white mr-4 p-3 bg-primary "></i>						
+					   </a>
+						<a class="li-ic">
+					   <i class="fab fa-linkedin text-white mr-4 p-3 bg-primary"></i>						
+					   </a>
+						<a class="ins-ic">
+					   <i class="fab fa-instagram text-white mr-lg-4 p-3 bg-primary"></i>						
+					   </a>
+				   </div>
+				 
+
+				  </div><!----row---->
+		
+			   </div><!----container---->
+
+			</div>
+			<div class="container mt-5 mb-4 text-center text-md-left">
+			 <div class="row mt-3">
+				<div class="col-lg-4 col-xl-3 col-md-3">
+				    <h6 class="text-uppercase font-weight-bold text-white">
+                        <strong>Company name</strong>
+                    </h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p class="text-white">Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				 
+				 </div><!----col-lg-4 col-xl-3 col-md-3---->
+				 <div class="col-lg-2 col-xl-2 col-md-2 text-white">
+				    <h6 class="text-uppercase font-weight-bold">
+                        <strong>Products</strong>
+                    </h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="#!">MDBootstrap</a>
+                    </p>
+                    <p>
+                        <a href="#!">MDWordPress</a>
+                    </p>
+                    <p>
+                        <a href="#!">BrandFlow</a>
+                    </p>
+                    <p>
+                        <a href="#!">Bootstrap Angular</a>
+                    </p>
+				 </div><!----col-lg-2 col-xl-2 col-md-2---->
+				<div class="col-lg-2 col-xl-2 col-md-3 footer-links">
+				   <h6 class="text-uppercase font-weight-bolder text-white">
+					   <strong>Useful Links</strong>
+                    </h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="#!">Your Account</a>
+                    </p>
+                    <p>
+                        <a href="#!">Become an Affiliate</a>
+                    </p>
+                    <p>
+                        <a href="#!">Shipping Rates</a>
+                    </p>
+                    <p>
+                        <a href="#!">Help</a>
+                    </p>
+				 
+				 </div><!----col-lg-2 col-xl-2 col-md-3---->
+				 <div class="col-lg-3 col-xl-3 col-md-4 text-white pr-4 contact-style">
+				     <h6 class="text-uppercase font-weight-bold">
+                        <strong>Contact</strong>
+                    </h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto color-white" style="width: 60px;">
+                    <p>
+                        <i class="fas fa-home"></i> New York, NY 10012, US </p>
+                    <p>
+                        <i class="fa fa-envelope mr-3"></i> info@example.com</p>
+                    <p>
+                        <i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+                    <p>
+                        <i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+				 </div><!----col-lg-3 col-xl-3 col-md-4 ---->
+				</div> <!----row---->
+			
+			</div><!----container---->
+			 <div class="footer-copyright text-center py-3">© 2021 Copyright:
+            <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
+        </div>
+
+		</footer>
+	  </div>
+	  
+	 <!-----bootstrap---->
+	  
+	   
+
+
+	  
+	  
+	  
+	  
+	  
+	  
+
+
+	<script src="js/dist/wow.min.js"></script>  
+    <script>new WOW().init();</script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="counter/purecounter.js"></script>  
+  </body>
+</html>

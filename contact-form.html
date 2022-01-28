@@ -1,0 +1,182 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 	
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Bootstrap Website</title>
+	<!-----stylesheet----->
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+     <!-----animation css link----->
+    <link
+    rel="stylesheet"
+    href="css/animate.min.css"
+  />
+	
+	<!-------fontawesome------>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!------bootstrap----->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<!----google fonts----->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<style>
+   
+		#feedback{
+			
+			background: #0d0442;
+			padding: 7% 10%;
+		}
+		.hr-style{
+			
+			border: 5px dotted white;
+			border-bottom: none;
+			width: 90px;
+		}
+	
+		.carousel-item{
+			padding: 5% 15%;
+			text-align: center;
+			
+		}
+
+
+
+
+		
+		
+	</style>
+</head>
+  <body >
+	<div class="container-fluid">
+		<!----- start create navbar ---->
+	  <header>
+	
+		  <nav class="navbar navbar-expand-md fixed-top ">
+		  <a class="navbar-brand animate__animated wow animate__zoomIn animate__slower 3s" href="index.html"><!----- only for logo ---->
+		  <img src="https://www.google.com/logos/doodles/2021/pohela-boishakh-6753651837108349.2-s.png" alt="logo">
+		  
+		  </a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+               <span><i class="fas fa-bars custom-navbar"></i></span>
+              </button><!-----small screen navbar ---->
+			  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+			    <ul class="navbar-nav ml-auto">
+			  <li class="nav-item"><a class="nav-link text-center text-md-left" href="#">Home</a></li>
+			   <li class="nav-item"><a class="nav-link text-center text-md-left" href="about.html">About</a></li>
+			   <li class="nav-item"><a class="nav-link scrollto text-center text-md-left" href="#author">Contact</a></li>
+			   <li class="nav-item"><a class="nav-link text-center text-md-left" href="#">Protfolo</a></li>
+		      </ul>
+			  </div>
+	
+		  </nav>
+	
+    
+		  
+	 </header><!----- end create navbar ---->
+		
+			  <!-- ======= Hero Section ======= -->
+	 <section id="hero" class="hero d-flex align-items-center">
+     <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h1 class="animate__animated wow animate__fadeInUp animate__slow 2s">We offer modern solutions for growing your business</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">We are team of talented designers making websites with Bootstrap</h2>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-start">
+              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span class="p-2 mr-5">Get Started</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 hero-img" >
+          <img class="animate__animated wow animate__zoomIn animate__slower 2s" src="image/hero-img.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+		<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="custom-map mt-5 ml-3">
+		<iframe width="1120" height="425" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=1120&amp;height=425&amp;hl=en&amp;q=banani,road,15%20,block%20D,%20house%2046,%20Dhaka+(custom-map)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://add-map.org/'>how to embed google map</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=4adefaaa7994301325f0c82d0622504ded2e3998'></script>
+		
+		</div>
+			
+			</div>
+			</div>
+		
+		</div>
+		
+	
+		
+		<section class="map-sections">
+		   <div class="container">
+			<div class="row">
+			   <div class="col-lg-10">
+				            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center "><button type="submit"  class="btn btn-primary p-3 ">Send Message</button></div>
+            </form>
+				
+				
+				
+				</div>
+			   </div>
+			</div>
+		
+		
+		
+		</section>
+		
+		
+		
+		
+		
+		
+		
+	
+	  </div>
+		
+		
+	  
+
+	  
+	  
+	  
+	  
+	  
+	  
+	  <script src="js/dist/wow.min.js"></script>  
+    <script>new WOW().init();</script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="counter/purecounter.js"></script>  
+	</body>
+	</html>
